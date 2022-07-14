@@ -1,2 +1,2 @@
-# Capostone-Project
+# Capstone-Project
 Kioko_Project
