@@ -15,8 +15,11 @@
 
 To have K8s cluster running:
 
-Execute Terraform commands:
+Execute Terraform commands on cmd:
 
+```
+cd capstone-project\Milestone1\aws
+```
 ```
 terraform init
 ```
@@ -34,6 +37,11 @@ aws eks --region us-east-2 update-kubeconfig --name #CHANGE FOR OUR REAL NAME
 ### Storage
 
 Create a namespace for storage deployment:
+
+On cmd:
+```
+cd capstone-project\Milestone1\kubernetes
+```
 ```
 kubectl create namespace storage
 ```
